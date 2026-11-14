@@ -1,0 +1,933 @@
+{
+  "checks": {
+    "assessed_attempt_has_evidence": {
+      "rows_checked": 17556,
+      "violations": 0
+    },
+    "attempt_after_enrolment_and_path": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "attempt_content_published": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "attempt_counter_follows_time": {
+      "rows_checked": 25000,
+      "violations": 2
+    },
+    "attempt_duration_reconciles": {
+      "rows_checked": 24007,
+      "violations": 5
+    },
+    "attempt_id_embeds_learner": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "attempt_max_score_matches_content": {
+      "rows_checked": 17556,
+      "violations": 0
+    },
+    "attempt_no_contiguous": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "attempt_passed_reconciles": {
+      "rows_checked": 17556,
+      "violations": 0
+    },
+    "attempt_path_same_learner": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "attempt_rec_link_consistent": {
+      "rows_checked": 16181,
+      "violations": 0
+    },
+    "attempt_score_pct_reconciles": {
+      "rows_checked": 17556,
+      "violations": 0
+    },
+    "attempt_status_fields": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "attempt_submitted_after_started": {
+      "rows_checked": 24007,
+      "violations": 3
+    },
+    "content_assessed_fields": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "content_lifecycle_fields": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "content_one_primary_skill": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "content_skill_same_course": {
+      "rows_checked": 541,
+      "violations": 0
+    },
+    "duplicate_attempt_no": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "duplicate_content_skill": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "duplicate_learner_course_path": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "duplicate_learner_email": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "duplicate_prerequisite_rule": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "duplicate_result_per_attempt_skill": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "enum:AssessmentResult.mastery_level": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "enum:AssessmentResult.model_version": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "enum:Attempt.status": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "enum:ContentItem.difficulty": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "enum:ContentItem.format": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "enum:ContentItem.status": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "enum:Course.level": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "enum:Course.status": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "enum:Learner.cohort": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "enum:Learner.country": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "enum:Learner.prior_level": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "enum:Learner.status": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "enum:LearningPath.status": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "enum:LearningPathEvent.event_type": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "enum:LearningPathEvent.from_status": {
+      "rows_checked": 1378,
+      "violations": 0
+    },
+    "enum:LearningPathEvent.to_status": {
+      "rows_checked": 1886,
+      "violations": 0
+    },
+    "enum:Recommendation.model_version": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "enum:Recommendation.outcome": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "enum:Recommendation.reason_code": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "enum:Recommendation.status": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "enum:Recommendation.target_difficulty": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "enum:Skill.status": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "enum:Skill.tier": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "enum:SkillPrerequisite.relation_type": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "fk:AssessmentResult.attempt_id->Attempt.attempt_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "fk:AssessmentResult.content_id->ContentItem.content_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "fk:AssessmentResult.learner_id->Learner.learner_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "fk:AssessmentResult.skill_id->Skill.skill_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "fk:Attempt.content_id->ContentItem.content_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "fk:Attempt.learner_id->Learner.learner_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "fk:Attempt.path_id->LearningPath.path_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "fk:Attempt.recommendation_id->Recommendation.recommendation_id": {
+      "rows_checked": 16181,
+      "violations": 0
+    },
+    "fk:ContentItem.course_id->Course.course_id": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "fk:ContentSkill.content_id->ContentItem.content_id": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "fk:ContentSkill.skill_id->Skill.skill_id": {
+      "rows_checked": 543,
+      "violations": 2
+    },
+    "fk:LearningPath.course_id->Course.course_id": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "fk:LearningPath.learner_id->Learner.learner_id": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "fk:LearningPathEvent.content_id->ContentItem.content_id": {
+      "rows_checked": 7074,
+      "violations": 0
+    },
+    "fk:LearningPathEvent.path_id->LearningPath.path_id": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "fk:LearningPathEvent.recommendation_id->Recommendation.recommendation_id": {
+      "rows_checked": 7074,
+      "violations": 0
+    },
+    "fk:LearningPathEvent.skill_id->Skill.skill_id": {
+      "rows_checked": 7255,
+      "violations": 0
+    },
+    "fk:Recommendation.content_id->ContentItem.content_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "fk:Recommendation.learner_id->Learner.learner_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "fk:Recommendation.outcome_attempt_id->Attempt.attempt_id": {
+      "rows_checked": 19159,
+      "violations": 0
+    },
+    "fk:Recommendation.path_id->LearningPath.path_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "fk:Recommendation.skill_id->Skill.skill_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "fk:Skill.course_id->Course.course_id": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "fk:SkillPrerequisite.prerequisite_skill_id->Skill.skill_id": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "fk:SkillPrerequisite.skill_id->Skill.skill_id": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "ground_truth_ids_exist": {
+      "rows_checked": 15,
+      "violations": 0
+    },
+    "ground_truth_not_in_inputs": {
+      "rows_checked": 120,
+      "violations": 0
+    },
+    "id_format:AssessmentResult.result_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "id_format:Attempt.attempt_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "id_format:ContentItem.content_id": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "id_format:ContentSkill.content_skill_id": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "id_format:Course.course_id": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "id_format:Learner.learner_id": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "id_format:LearningPath.path_id": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "id_format:LearningPathEvent.event_id": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "id_format:Recommendation.recommendation_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "id_format:Skill.skill_id": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "id_format:SkillPrerequisite.prerequisite_id": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "learner_cohort_from_enrolment": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "learner_enrolled_in_window": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "learner_withdrawn_after_enrolled": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "learner_withdrawn_fields": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "mastery_replay_reconciles": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "no_attempt_after_withdrawal": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "path_completed_fields": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "path_created_after_enrolment": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "path_event_sequence": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "path_event_type_fields": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "path_lifecycle_transitions": {
+      "rows_checked": 1886,
+      "violations": 0
+    },
+    "path_no_loop_without_progress": {
+      "rows_checked": 508,
+      "violations": 2
+    },
+    "path_status_events_reconcile": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "path_status_is_last_event": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "path_summary_reconciles": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "pk_not_null:AssessmentResult": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "pk_not_null:Attempt": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "pk_not_null:ContentItem": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "pk_not_null:ContentSkill": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "pk_not_null:Course": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "pk_not_null:Learner": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "pk_not_null:LearningPath": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "pk_not_null:LearningPathEvent": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "pk_not_null:Recommendation": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "pk_not_null:Skill": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "pk_not_null:SkillPrerequisite": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "pk_unique:AssessmentResult": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "pk_unique:Attempt": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "pk_unique:ContentItem": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "pk_unique:ContentSkill": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "pk_unique:Course": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "pk_unique:Learner": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "pk_unique:LearningPath": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "pk_unique:LearningPathEvent": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "pk_unique:Recommendation": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "pk_unique:Skill": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "pk_unique:SkillPrerequisite": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "prereq_effective_dates": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "prereq_no_self_loop": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "prereq_points_backwards": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "rec_after_enrolment_and_path": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "rec_content_published": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "rec_escalation_fields": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "rec_has_reason_code": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "rec_outcome_reconciles": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "rec_prerequisites_respected": {
+      "rows_checked": 21202,
+      "violations": 3
+    },
+    "rec_rank_contiguous": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "rec_skill_is_primary": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:AssessmentResult.attempt_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.computed_at": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.content_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.evidence_count": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.evidence_weight": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.learner_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.mastery_after": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.mastery_before": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.mastery_level": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.model_version": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.result_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.score_pct": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:AssessmentResult.skill_id": {
+      "rows_checked": 23382,
+      "violations": 0
+    },
+    "required:Attempt.attempt_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.attempt_no": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.completion_pct": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.content_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.duration_sec": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.learner_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.path_id": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.started_at": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:Attempt.status": {
+      "rows_checked": 25000,
+      "violations": 0
+    },
+    "required:ContentItem.content_id": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentItem.course_id": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentItem.difficulty": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentItem.est_minutes": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentItem.format": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentItem.is_assessed": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentItem.status": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentItem.title": {
+      "rows_checked": 400,
+      "violations": 0
+    },
+    "required:ContentSkill.content_id": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "required:ContentSkill.content_skill_id": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "required:ContentSkill.is_primary": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "required:ContentSkill.skill_id": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "required:ContentSkill.weight": {
+      "rows_checked": 543,
+      "violations": 0
+    },
+    "required:Course.course_code": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.course_id": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.credits": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.domain": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.effective_from": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.level": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.sequence_in_domain": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.status": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Course.title": {
+      "rows_checked": 5,
+      "violations": 0
+    },
+    "required:Learner.cohort": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:Learner.country": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:Learner.display_name": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:Learner.email": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:Learner.enrolled_at": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:Learner.learner_id": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:Learner.prior_level": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:Learner.status": {
+      "rows_checked": 500,
+      "violations": 0
+    },
+    "required:LearningPath.course_id": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.created_at": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.learner_id": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.path_id": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.progress_pct": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.skills_mastered": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.skills_total": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.status": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPath.status_changed_at": {
+      "rows_checked": 508,
+      "violations": 0
+    },
+    "required:LearningPathEvent.event_at": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "required:LearningPathEvent.event_id": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "required:LearningPathEvent.event_seq": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "required:LearningPathEvent.event_type": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "required:LearningPathEvent.path_id": {
+      "rows_checked": 9141,
+      "violations": 0
+    },
+    "required:Recommendation.learner_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.model_version": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.outcome": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.path_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.prereqs_checked": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.rank": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.rationale": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.reason_code": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.recommendation_id": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.recommended_at": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Recommendation.status": {
+      "rows_checked": 21202,
+      "violations": 0
+    },
+    "required:Skill.course_id": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "required:Skill.effective_from": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "required:Skill.skill_id": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "required:Skill.skill_name": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "required:Skill.status": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "required:Skill.tier": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "required:Skill.topic": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "required:SkillPrerequisite.cross_course": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "required:SkillPrerequisite.effective_from": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "required:SkillPrerequisite.min_mastery": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "required:SkillPrerequisite.prerequisite_id": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "required:SkillPrerequisite.prerequisite_skill_id": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "required:SkillPrerequisite.relation_type": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "required:SkillPrerequisite.skill_id": {
+      "rows_checked": 131,
+      "violations": 0
+    },
+    "result_not_before_evidence": {
+      "rows_checked": 23382,
+      "violations": 3
+    },
+    "skill_graph_acyclic": {
+      "rows_checked": 100,
+      "violations": 0
+    },
+    "step_matches_rank1_rec": {
+      "rows_checked": 7074,
+      "violations": 0
+    }
+  },
+  "checks_run": 228,
+  "labelled_findings_by_check": {
+    "attempt_counter_follows_time": 2,
+    "attempt_duration_reconciles": 5,
+    "attempt_submitted_after_started": 3,
+    "fk:ContentSkill.skill_id->Skill.skill_id": 2,
+    "path_no_loop_without_progress": 2,
+    "rec_prerequisites_respected": 3,
+    "result_not_before_evidence": 3
+  },
+  "labelled_findings_observed": 20,
+  "missed_labelled": 0,
+  "missed_labelled_samples": [],
+  "status": "PASS",
+  "total_rows_checked": 2218612,
+  "unexpected_error_samples": [],
+  "unexpected_errors": 0
+}

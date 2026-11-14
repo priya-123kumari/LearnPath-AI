@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+frontend/node_modules/
+frontend/dist/
+# database tier: the SQLite file is built from the committed data (python -m database.load_db)
+database/*.db
+database/*.db.tmp
+# full dataset (500,000 attempts, ~700 MB): regenerate with the command in README; its checksums, outputs,
+# ground truth, manifest and schema ARE committed so the regenerated files can be verified byte for byte
+database/data/full/csv/
+database/data/full/json/
+database/data/full/sql/seed.sql

@@ -1,0 +1,33 @@
+{
+  "seed": 20261022,
+  "scale": "starter",
+  "files_compared": 31,
+  "differing_files": [],
+  "row_counts_equal": true,
+  "row_counts": {
+    "assessment_results": 23382,
+    "attempts": 25000,
+    "content_items": 400,
+    "content_skills": 543,
+    "courses": 5,
+    "learners": 500,
+    "learning_path_events": 9141,
+    "learning_paths": 508,
+    "recommendations": 21202,
+    "skill_prerequisites": 131,
+    "skills": 100
+  },
+  "against": {
+    "dataset": "database/data/starter",
+    "files_compared": 31,
+    "differing_files": []
+  },
+  "result": "REPRODUCIBLE",
+  "sample_checksums": {
+    "csv/assessment_results.csv": "0c9384eaee4bf36ea3d6df5771db3267373180d3d2645af81a5d9223e37dd4ea",
+    "csv/attempts.csv": "b9f9e484142c30b0fef3ee5876160c90a8e0d3d7070a13b3a027a9377df2b3c8",
+    "csv/content_items.csv": "b2e02476aff834b045bd6fdae34ab85bd4074f7aa791b4d923fde4b94cfe5ca7",
+    "csv/content_skills.csv": "48bf90b93d9d0f6cbb3ed4d3949741a7a230fd66a0c030d3d513b731a4fa3c9b",
+    "csv/courses.csv": "e709a6d07bff1bbf53e97c4329bf0ff9f9c64f99f525bb9eb9ec329cdc915c8c"
+  }
+}

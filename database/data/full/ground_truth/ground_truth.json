@@ -1,0 +1,2297 @@
+[
+ {
+  "gt_id":"GT-000001",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000390-000034",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000002",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000512-000014",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000003",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000755-000033",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-000755-000032"
+ },
+ {
+  "gt_id":"GT-000004",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000789-000011",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000005",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000837-000022",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-000837-000021"
+ },
+ {
+  "gt_id":"GT-000006",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000886-000005",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000007",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000918-000057",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000008",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000920-000007",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-000920-000006"
+ },
+ {
+  "gt_id":"GT-000009",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-000948-000025",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000010",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001094-000015",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000011",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001139-000017",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000012",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001203-000007",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-001203-000006"
+ },
+ {
+  "gt_id":"GT-000013",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001229-000004",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000014",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001329-000025",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-001329-000024"
+ },
+ {
+  "gt_id":"GT-000015",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001396-000020",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000016",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001429-000030",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000017",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001450-000039",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000018",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001470-000012",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-001470-000011"
+ },
+ {
+  "gt_id":"GT-000019",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001500-000015",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000020",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001663-000026",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000021",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001848-000004",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-001848-000003"
+ },
+ {
+  "gt_id":"GT-000022",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001896-000007",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-001896-000006"
+ },
+ {
+  "gt_id":"GT-000023",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-001945-000022",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000024",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002089-000017",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000025",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002225-000017",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-002225-000016"
+ },
+ {
+  "gt_id":"GT-000026",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002264-000004",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-002264-000003"
+ },
+ {
+  "gt_id":"GT-000027",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002333-000123",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-002333-000122"
+ },
+ {
+  "gt_id":"GT-000028",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002341-000059",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000029",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002508-000238",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000030",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002617-000028",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-002617-000027"
+ },
+ {
+  "gt_id":"GT-000031",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002699-000026",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-002699-000025"
+ },
+ {
+  "gt_id":"GT-000032",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002745-000020",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000033",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002790-000039",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-002790-000038"
+ },
+ {
+  "gt_id":"GT-000034",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-002979-000116",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000035",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-003009-000007",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-003009-000006"
+ },
+ {
+  "gt_id":"GT-000036",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-003232-000060",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-003232-000059"
+ },
+ {
+  "gt_id":"GT-000037",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-003391-000007",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000038",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-003436-000013",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-003436-000012"
+ },
+ {
+  "gt_id":"GT-000039",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-003571-000006",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-003571-000005"
+ },
+ {
+  "gt_id":"GT-000040",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-003818-000028",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000041",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-003869-000007",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-003869-000006"
+ },
+ {
+  "gt_id":"GT-000042",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004069-000011",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-004069-000010"
+ },
+ {
+  "gt_id":"GT-000043",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004161-000039",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-004161-000038"
+ },
+ {
+  "gt_id":"GT-000044",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004211-000041",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-004211-000040"
+ },
+ {
+  "gt_id":"GT-000045",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004225-000009",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000046",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004303-000059",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000047",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004351-000016",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-004351-000015"
+ },
+ {
+  "gt_id":"GT-000048",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004486-000050",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-004486-000049"
+ },
+ {
+  "gt_id":"GT-000049",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004704-000080",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-004704-000079"
+ },
+ {
+  "gt_id":"GT-000050",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004712-000022",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000051",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004866-000035",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000052",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004870-000074",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000053",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004884-000028",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-004884-000027"
+ },
+ {
+  "gt_id":"GT-000054",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-004916-000006",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000055",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005016-000010",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-005016-000009"
+ },
+ {
+  "gt_id":"GT-000056",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005060-000008",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-005060-000007"
+ },
+ {
+  "gt_id":"GT-000057",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005194-000019",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-005194-000018"
+ },
+ {
+  "gt_id":"GT-000058",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005199-000004",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000059",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005497-000037",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000060",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005680-000024",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000061",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005706-000004",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-005706-000003"
+ },
+ {
+  "gt_id":"GT-000062",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005971-000015",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-005971-000014"
+ },
+ {
+  "gt_id":"GT-000063",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-005999-000109",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-005999-000108"
+ },
+ {
+  "gt_id":"GT-000064",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006016-000008",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000065",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006145-000061",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-006145-000060"
+ },
+ {
+  "gt_id":"GT-000066",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006567-000051",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-006567-000050"
+ },
+ {
+  "gt_id":"GT-000067",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006700-000010",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000068",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006861-000018",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000069",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006882-000059",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-006882-000058"
+ },
+ {
+  "gt_id":"GT-000070",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006902-000031",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000071",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006939-000009",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-006939-000008"
+ },
+ {
+  "gt_id":"GT-000072",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-006989-000002",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-006989-000001"
+ },
+ {
+  "gt_id":"GT-000073",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-007103-000009",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000074",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-007143-000006",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-007143-000005"
+ },
+ {
+  "gt_id":"GT-000075",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-007467-000067",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-007467-000066"
+ },
+ {
+  "gt_id":"GT-000076",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-007574-000033",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-007574-000032"
+ },
+ {
+  "gt_id":"GT-000077",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-007733-000005",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-007733-000004"
+ },
+ {
+  "gt_id":"GT-000078",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-007794-000089",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000079",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008008-000012",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-008008-000011"
+ },
+ {
+  "gt_id":"GT-000080",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008102-000013",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-008102-000012"
+ },
+ {
+  "gt_id":"GT-000081",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008190-000050",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000082",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008198-000013",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000083",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008279-000006",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-008279-000005"
+ },
+ {
+  "gt_id":"GT-000084",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008311-000012",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000085",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008420-000003",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000086",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008609-000056",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000087",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008680-000006",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-008680-000005"
+ },
+ {
+  "gt_id":"GT-000088",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008685-000026",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000089",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008765-000008",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-008765-000007"
+ },
+ {
+  "gt_id":"GT-000090",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008920-000010",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000091",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-008961-000017",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000092",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009032-000047",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-009032-000046"
+ },
+ {
+  "gt_id":"GT-000093",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009098-000040",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000094",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009179-000007",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000095",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009285-000052",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000096",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009290-000005",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-009290-000004"
+ },
+ {
+  "gt_id":"GT-000097",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009385-000011",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-009385-000010"
+ },
+ {
+  "gt_id":"GT-000098",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009403-000025",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000099",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009407-000052",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"started_at earlier than previous attempt ATT-LRN-009407-000051"
+ },
+ {
+  "gt_id":"GT-000100",
+  "entity_type":"ATTEMPT",
+  "entity_id":"ATT-LRN-009495-000021",
+  "issue_type":"ATTEMPT_TIMESTAMP_ORDER_INVALID",
+  "expected_detection_rule":"submitted_at < started_at, or started_at decreases in per-learner attempt counter order",
+  "expected_decision":"QUARANTINE_ATTEMPT",
+  "context":"submitted_at earlier than started_at"
+ },
+ {
+  "gt_id":"GT-000101",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-000011",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-000009 mapped to unknown SKL-009501"
+ },
+ {
+  "gt_id":"GT-000102",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-000356",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-000261 mapped to unknown SKL-009502"
+ },
+ {
+  "gt_id":"GT-000103",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-000435",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-000319 mapped to unknown SKL-009503"
+ },
+ {
+  "gt_id":"GT-000104",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-000515",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-000378 mapped to unknown SKL-009504"
+ },
+ {
+  "gt_id":"GT-000105",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-000582",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-000428 mapped to unknown SKL-009505"
+ },
+ {
+  "gt_id":"GT-000106",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-000992",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-000738 mapped to unknown SKL-009506"
+ },
+ {
+  "gt_id":"GT-000107",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-001298",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-000967 mapped to unknown SKL-009507"
+ },
+ {
+  "gt_id":"GT-000108",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-001689",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001249 mapped to unknown SKL-009508"
+ },
+ {
+  "gt_id":"GT-000109",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-001834",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001358 mapped to unknown SKL-009509"
+ },
+ {
+  "gt_id":"GT-000110",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-001855",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001371 mapped to unknown SKL-009510"
+ },
+ {
+  "gt_id":"GT-000111",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-001884",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001394 mapped to unknown SKL-009511"
+ },
+ {
+  "gt_id":"GT-000112",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-001913",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001417 mapped to unknown SKL-009512"
+ },
+ {
+  "gt_id":"GT-000113",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-002378",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001752 mapped to unknown SKL-009513"
+ },
+ {
+  "gt_id":"GT-000114",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-002669",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001961 mapped to unknown SKL-009514"
+ },
+ {
+  "gt_id":"GT-000115",
+  "entity_type":"CONTENT_SKILL",
+  "entity_id":"CSK-002704",
+  "issue_type":"CONTENT_MAPPED_TO_NONEXISTENT_SKILL",
+  "expected_detection_rule":"ContentSkill.skill_id not found in Skill (FK)",
+  "expected_decision":"REJECT_MAPPING",
+  "context":"CNT-001986 mapped to unknown SKL-009515"
+ },
+ {
+  "gt_id":"GT-000116",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-000404",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-001202 assigned 5x from 0.35 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000117",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-001159",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000859 assigned 5x from 0.52 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000118",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-001363",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000847 assigned 5x from 0.62 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000119",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-001568",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000460 assigned 5x from 0.7 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000120",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-003287",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-001607 assigned 5x from 0.0 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000121",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-003511",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000455 assigned 5x from 0.49 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000122",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-003539",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000407 assigned 5x from 0.57 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000123",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-003612",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000847 assigned 5x from 0.49 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000124",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-003884",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000474 assigned 5x from 0.52 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000125",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-003901",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000060 assigned 5x from 0.43 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000126",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-005189",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000841 assigned 5x from 0.41 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000127",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-005206",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-001276 assigned 5x from 0.68 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000128",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-006851",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000064 assigned 5x from 0.0 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000129",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-006930",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-001265 assigned 5x from 0.62 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000130",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-007541",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-001605 assigned 5x from 0.23 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000131",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-007804",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000474 assigned 5x from 0.54 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000132",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-008123",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000808 assigned 5x from 0.76 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000133",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-008285",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-000478 assigned 5x from 0.72 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000134",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-008927",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-001206 assigned 5x from 0.74 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000135",
+  "entity_type":"LEARNING_PATH",
+  "entity_id":"PATH-2026-009949",
+  "issue_type":"LEARNER_PATH_LOOPS_WITHOUT_PROGRESS",
+  "expected_detection_rule":">= 4 consecutive STEP_ASSIGNED events for the same item with mastery gain < 0.02",
+  "expected_decision":"ESCALATE_TO_INSTRUCTOR",
+  "context":"CNT-001212 assigned 5x from 0.14 mastery with no attempt"
+ },
+ {
+  "gt_id":"GT-000136",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00003120",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 40.4 h before attempt ATT-LRN-000064-000170 was submitted"
+ },
+ {
+  "gt_id":"GT-000137",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00009192",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 182.4 h before attempt ATT-LRN-000186-000038 was submitted"
+ },
+ {
+  "gt_id":"GT-000138",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00009424",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 173.8 h before attempt ATT-LRN-000188-000053 was submitted"
+ },
+ {
+  "gt_id":"GT-000139",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00026844",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 182.2 h before attempt ATT-LRN-000610-000002 was submitted"
+ },
+ {
+  "gt_id":"GT-000140",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00041512",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 215.7 h before attempt ATT-LRN-000893-000023 was submitted"
+ },
+ {
+  "gt_id":"GT-000141",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00044559",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 201.4 h before attempt ATT-LRN-000954-000016 was submitted"
+ },
+ {
+  "gt_id":"GT-000142",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00045890",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 19.9 h before attempt ATT-LRN-000986-000008 was submitted"
+ },
+ {
+  "gt_id":"GT-000143",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00045992",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 161.3 h before attempt ATT-LRN-000987-000064 was submitted"
+ },
+ {
+  "gt_id":"GT-000144",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00072621",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 128.4 h before attempt ATT-LRN-001503-000110 was submitted"
+ },
+ {
+  "gt_id":"GT-000145",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00083578",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 76.6 h before attempt ATT-LRN-001739-000002 was submitted"
+ },
+ {
+  "gt_id":"GT-000146",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00087661",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 34.8 h before attempt ATT-LRN-001817-000042 was submitted"
+ },
+ {
+  "gt_id":"GT-000147",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00087995",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 130.0 h before attempt ATT-LRN-001822-000042 was submitted"
+ },
+ {
+  "gt_id":"GT-000148",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00092176",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 195.8 h before attempt ATT-LRN-001909-000065 was submitted"
+ },
+ {
+  "gt_id":"GT-000149",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00094372",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 21.4 h before attempt ATT-LRN-001962-000019 was submitted"
+ },
+ {
+  "gt_id":"GT-000150",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00127121",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 135.3 h before attempt ATT-LRN-002613-000073 was submitted"
+ },
+ {
+  "gt_id":"GT-000151",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00128485",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 185.5 h before attempt ATT-LRN-002643-000025 was submitted"
+ },
+ {
+  "gt_id":"GT-000152",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00131982",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 170.9 h before attempt ATT-LRN-002718-000008 was submitted"
+ },
+ {
+  "gt_id":"GT-000153",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00138923",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 86.5 h before attempt ATT-LRN-002851-000025 was submitted"
+ },
+ {
+  "gt_id":"GT-000154",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00142165",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 2.6 h before attempt ATT-LRN-002913-000006 was submitted"
+ },
+ {
+  "gt_id":"GT-000155",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00152958",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 116.8 h before attempt ATT-LRN-003139-000041 was submitted"
+ },
+ {
+  "gt_id":"GT-000156",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00154473",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 37.7 h before attempt ATT-LRN-003162-000027 was submitted"
+ },
+ {
+  "gt_id":"GT-000157",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00163553",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 97.5 h before attempt ATT-LRN-003345-000007 was submitted"
+ },
+ {
+  "gt_id":"GT-000158",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00185189",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 26.0 h before attempt ATT-LRN-003802-000118 was submitted"
+ },
+ {
+  "gt_id":"GT-000159",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00190198",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 90.2 h before attempt ATT-LRN-003915-000005 was submitted"
+ },
+ {
+  "gt_id":"GT-000160",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00213651",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 178.5 h before attempt ATT-LRN-004434-000004 was submitted"
+ },
+ {
+  "gt_id":"GT-000161",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00219242",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 176.3 h before attempt ATT-LRN-004566-000006 was submitted"
+ },
+ {
+  "gt_id":"GT-000162",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00240225",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 111.6 h before attempt ATT-LRN-004975-000022 was submitted"
+ },
+ {
+  "gt_id":"GT-000163",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00241750",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 126.0 h before attempt ATT-LRN-005005-000019 was submitted"
+ },
+ {
+  "gt_id":"GT-000164",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00247152",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 37.3 h before attempt ATT-LRN-005111-000013 was submitted"
+ },
+ {
+  "gt_id":"GT-000165",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00249999",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 67.7 h before attempt ATT-LRN-005166-000020 was submitted"
+ },
+ {
+  "gt_id":"GT-000166",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00250148",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 177.3 h before attempt ATT-LRN-005169-000001 was submitted"
+ },
+ {
+  "gt_id":"GT-000167",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00265235",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 177.4 h before attempt ATT-LRN-005486-000050 was submitted"
+ },
+ {
+  "gt_id":"GT-000168",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00266922",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 231.5 h before attempt ATT-LRN-005514-000002 was submitted"
+ },
+ {
+  "gt_id":"GT-000169",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00270040",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 194.8 h before attempt ATT-LRN-005578-000086 was submitted"
+ },
+ {
+  "gt_id":"GT-000170",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00277697",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 101.3 h before attempt ATT-LRN-005756-000004 was submitted"
+ },
+ {
+  "gt_id":"GT-000171",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00280519",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 177.3 h before attempt ATT-LRN-005829-000015 was submitted"
+ },
+ {
+  "gt_id":"GT-000172",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00281250",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 201.4 h before attempt ATT-LRN-005849-000021 was submitted"
+ },
+ {
+  "gt_id":"GT-000173",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00284776",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 58.0 h before attempt ATT-LRN-005907-000007 was submitted"
+ },
+ {
+  "gt_id":"GT-000174",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00301610",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 48.5 h before attempt ATT-LRN-006263-001063 was submitted"
+ },
+ {
+  "gt_id":"GT-000175",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00317191",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 156.1 h before attempt ATT-LRN-006568-000065 was submitted"
+ },
+ {
+  "gt_id":"GT-000176",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00319622",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 224.1 h before attempt ATT-LRN-006615-000005 was submitted"
+ },
+ {
+  "gt_id":"GT-000177",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00321069",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 76.5 h before attempt ATT-LRN-006644-000157 was submitted"
+ },
+ {
+  "gt_id":"GT-000178",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00325161",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 64.3 h before attempt ATT-LRN-006739-000055 was submitted"
+ },
+ {
+  "gt_id":"GT-000179",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00362315",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 26.3 h before attempt ATT-LRN-007493-000013 was submitted"
+ },
+ {
+  "gt_id":"GT-000180",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00364978",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 67.6 h before attempt ATT-LRN-007555-000201 was submitted"
+ },
+ {
+  "gt_id":"GT-000181",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00365117",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 198.6 h before attempt ATT-LRN-007555-000355 was submitted"
+ },
+ {
+  "gt_id":"GT-000182",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00366773",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 228.4 h before attempt ATT-LRN-007597-000042 was submitted"
+ },
+ {
+  "gt_id":"GT-000183",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00392716",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 24.4 h before attempt ATT-LRN-008173-000003 was submitted"
+ },
+ {
+  "gt_id":"GT-000184",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00395200",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 92.1 h before attempt ATT-LRN-008220-000063 was submitted"
+ },
+ {
+  "gt_id":"GT-000185",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00395657",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 140.0 h before attempt ATT-LRN-008231-000105 was submitted"
+ },
+ {
+  "gt_id":"GT-000186",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00399741",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 119.4 h before attempt ATT-LRN-008308-000020 was submitted"
+ },
+ {
+  "gt_id":"GT-000187",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00410902",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 70.1 h before attempt ATT-LRN-008548-000001 was submitted"
+ },
+ {
+  "gt_id":"GT-000188",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00418293",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 62.4 h before attempt ATT-LRN-008690-000340 was submitted"
+ },
+ {
+  "gt_id":"GT-000189",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00430646",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 4.0 h before attempt ATT-LRN-008932-000047 was submitted"
+ },
+ {
+  "gt_id":"GT-000190",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00434767",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 230.2 h before attempt ATT-LRN-009026-000011 was submitted"
+ },
+ {
+  "gt_id":"GT-000191",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00437050",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 77.5 h before attempt ATT-LRN-009075-000130 was submitted"
+ },
+ {
+  "gt_id":"GT-000192",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00437317",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 186.1 h before attempt ATT-LRN-009082-000016 was submitted"
+ },
+ {
+  "gt_id":"GT-000193",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00443385",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 152.7 h before attempt ATT-LRN-009221-000050 was submitted"
+ },
+ {
+  "gt_id":"GT-000194",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00449124",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 18.9 h before attempt ATT-LRN-009330-000006 was submitted"
+ },
+ {
+  "gt_id":"GT-000195",
+  "entity_type":"ASSESSMENT_RESULT",
+  "entity_id":"ASR-00450708",
+  "issue_type":"MASTERY_USES_FUTURE_ATTEMPT",
+  "expected_detection_rule":"AssessmentResult.computed_at < Attempt.submitted_at of its evidence",
+  "expected_decision":"RECOMPUTE_MASTERY",
+  "context":"mastery stamped 156.6 h before attempt ATT-LRN-009368-000013 was submitted"
+ },
+ {
+  "gt_id":"GT-000196",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00002711",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000112 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000197",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00010052",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000212 needs 0.70, had 0.00; SKL-000209 needs 0.60, had 0.00; SKL-000208 needs 0.70, had 0.00; SKL-000206 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000198",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00013582",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000106 needs 0.70, had 0.00; SKL-000107 needs 0.60, had 0.00; SKL-000105 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000199",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00019724",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000009 needs 0.70, had 0.00; SKL-000012 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000200",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00024713",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000406 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000201",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00026744",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000408 needs 0.70, had 0.00; SKL-000407 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000202",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00028132",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000005 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000203",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00028990",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000304 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000204",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00054275",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000310 needs 0.70, had 0.00; SKL-000306 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000205",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00059053",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000104 needs 0.70, had 0.10"
+ },
+ {
+  "gt_id":"GT-000206",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00064903",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000201 needs 0.70, had 0.39"
+ },
+ {
+  "gt_id":"GT-000207",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00067432",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000116 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000208",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00072557",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000212 needs 0.70, had 0.00; SKL-000209 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000209",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00076879",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000204 needs 0.70, had 0.00; SKL-000203 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000210",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00084750",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000115 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000211",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00086457",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000108 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000212",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00111723",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000014 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000213",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00112409",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000209 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000214",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00122177",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000006 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000215",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00133396",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000410 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000216",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00133907",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000013 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000217",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00134476",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000410 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000218",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00146393",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000305 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000219",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00147138",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000016 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000220",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00152682",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000007 needs 0.70, had 0.00; SKL-000008 needs 0.60, had 0.00; SKL-000003 needs 0.70, had 0.51"
+ },
+ {
+  "gt_id":"GT-000221",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00160473",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000203 needs 0.70, had 0.65"
+ },
+ {
+  "gt_id":"GT-000222",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00167607",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000008 needs 0.70, had 0.52; SKL-000006 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000223",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00169556",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000012 needs 0.70, had 0.11"
+ },
+ {
+  "gt_id":"GT-000224",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00191726",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000414 needs 0.70, had 0.02; SKL-000415 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000225",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00194968",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000410 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000226",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00202322",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000308 needs 0.70, had 0.69"
+ },
+ {
+  "gt_id":"GT-000227",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00209063",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000308 needs 0.70, had 0.64"
+ },
+ {
+  "gt_id":"GT-000228",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00210730",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000007 needs 0.70, had 0.57"
+ },
+ {
+  "gt_id":"GT-000229",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00242883",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000411 needs 0.70, had 0.00; SKL-000410 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000230",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00245116",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000416 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000231",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00246300",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000205 needs 0.70, had 0.31; SKL-000206 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000232",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00259991",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000211 needs 0.70, had 0.09"
+ },
+ {
+  "gt_id":"GT-000233",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00266447",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000107 needs 0.70, had 0.61"
+ },
+ {
+  "gt_id":"GT-000234",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00266612",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000011 needs 0.70, had 0.00; SKL-000009 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000235",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00269808",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000108 needs 0.70, had 0.47"
+ },
+ {
+  "gt_id":"GT-000236",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00275746",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000310 needs 0.70, had 0.00; SKL-000306 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000237",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00281372",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000205 needs 0.70, had 0.18"
+ },
+ {
+  "gt_id":"GT-000238",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00283850",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000007 needs 0.70, had 0.38"
+ },
+ {
+  "gt_id":"GT-000239",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00285928",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000104 needs 0.70, had 0.45; SKL-000102 needs 0.70, had 0.52"
+ },
+ {
+  "gt_id":"GT-000240",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00289333",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000310 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000241",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00301407",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000306 needs 0.70, had 0.43"
+ },
+ {
+  "gt_id":"GT-000242",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00305118",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000004 needs 0.70, had 0.41; SKL-000003 needs 0.60, had 0.40; SKL-000001 needs 0.70, had 0.39"
+ },
+ {
+  "gt_id":"GT-000243",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00323929",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000208 needs 0.70, had 0.00; SKL-000206 needs 0.60, had 0.00; SKL-000204 needs 0.70, had 0.23"
+ },
+ {
+  "gt_id":"GT-000244",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00333367",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000311 needs 0.70, had 0.42"
+ },
+ {
+  "gt_id":"GT-000245",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00334487",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000006 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000246",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00339899",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000216 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000247",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00344137",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000301 needs 0.70, had 0.44"
+ },
+ {
+  "gt_id":"GT-000248",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00372487",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000313 needs 0.70, had 0.00; SKL-000316 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000249",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00379396",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000215 needs 0.70, had 0.00; SKL-000213 needs 0.70, had 0.00; SKL-000215 needs 0.60, had 0.00"
+ },
+ {
+  "gt_id":"GT-000250",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00388018",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000110 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000251",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00389360",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000002 needs 0.70, had 0.63"
+ },
+ {
+  "gt_id":"GT-000252",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00390485",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000215 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000253",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00390756",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000302 needs 0.70, had 0.41; SKL-000301 needs 0.60, had 0.29"
+ },
+ {
+  "gt_id":"GT-000254",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00390823",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000310 needs 0.70, had 0.00"
+ },
+ {
+  "gt_id":"GT-000255",
+  "entity_type":"RECOMMENDATION",
+  "entity_id":"REC-00409050",
+  "issue_type":"RECOMMENDATION_VIOLATES_PREREQUISITE",
+  "expected_detection_rule":"a REQUIRED prerequisite of the recommended item is below min_mastery at recommended_at",
+  "expected_decision":"BLOCK_RECOMMENDATION",
+  "context":"SKL-000013 needs 0.70, had 0.00"
+ }
+]

@@ -1,0 +1,6 @@
+course_id,course_code,title,domain,sequence_in_domain,level,credits,status,effective_from,effective_to
+CRS-000001,DS-101,Python for Data,Data Science,1,INTRODUCTORY,4,ACTIVE,2025-12-01,
+CRS-000002,DS-201,Data Wrangling,Data Science,2,INTRODUCTORY,2,ACTIVE,2025-12-01,
+CRS-000003,DS-301,Applied Statistics,Data Science,3,INTERMEDIATE,5,ACTIVE,2025-12-01,
+CRS-000004,DS-401,Machine Learning,Data Science,4,INTERMEDIATE,2,ACTIVE,2025-12-01,
+CRS-000005,DS-501,Deep Learning,Data Science,5,ADVANCED,6,ACTIVE,2025-12-01,
